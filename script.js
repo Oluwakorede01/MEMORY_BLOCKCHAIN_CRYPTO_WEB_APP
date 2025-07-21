@@ -686,74 +686,74 @@ const quizData = [
   {
     "question": "Which platform is known for NFTs?",
     "options": [
-      "B: Bitcoin",
-      "A: Ethereum"
+      "A: Bitcoin",
+      "B: Ethereum"
     ],
-    "correct": "A: Ethereum"
+    "correct": "B: Ethereum"
   },
   {
     "question": "Which token powers the Ethereum network?",
     "options": [
-      "B: ETC",
-      "A: ETH"
+      "A: ETC",
+      "B: ETH"
     ],
-    "correct": "A: ETH"
+    "correct": "B: ETH"
   },
   {
     "question": "What\u2019s the purpose of a blockchain explorer?",
     "options": [
-      "B: Mine new tokens",
-      "A: View blockchain data"
+      "A: Mine new tokens",
+      "B: View blockchain data"
     ],
-    "correct": "A: View blockchain data"
+    "correct": "B: View blockchain data"
   },
   {
     "question": "Which blockchain uses SOL as its token?",
     "options": [
-      "A: Solana",
-      "B: Polygon"
+      "B: Solana",
+      "A: Polygon"
     ],
-    "correct": "A: Solana"
+    "correct": "B: Solana"
   },
   {
     "question": "Which crypto is known as digital silver?",
     "options": [
-      "A: Litecoin",
-      "B: Ethereum"
+      "B: Litecoin",
+      "A: Ethereum"
     ],
-    "correct": "A: Litecoin"
+    "correct": "B: Litecoin"
   },
   {
     "question": "What is gas in Ethereum?",
     "options": [
-      "A: Transaction fee",
-      "B: Block reward"
+      "B: Transaction fee",
+      "A: Block reward"
     ],
-    "correct": "A: Transaction fee"
+    "correct": "B: Transaction fee"
   },
   {
     "question": "What does HODL mean in crypto slang?",
     "options": [
-      "B: Sell at peak",
-      "A: Hold crypto long-term"
+      "A: Sell at peak",
+      "B: Hold crypto long-term"
     ],
-    "correct": "A: Hold crypto long-term"
+    "correct": "B: Hold crypto long-term"
   },
   {
     "question": "What is a stablecoin?",
     "options": [
-      "A: Crypto pegged to fiat",
-      "B: Crypto with fixed supply"
+      "B: Crypto pegged to fiat",
+      "A: Crypto with fixed supply"
     ],
-    "correct": "A: Crypto pegged to fiat"
+    "correct": "B: Crypto pegged to fiat"
   },
   {
     "question": "Which coin is a popular privacy coin?",
     "options": [
-      "A: Monero",
-      "B: Bitcoin Cash"
+      "B: Monero",
+      "A: Bitcoin Cash"
     ],
-    "correct": "A: Monero"
+    "correct": "B: Monero"
   },
   {
     "question": "What is an NFT?",
@@ -854,58 +854,58 @@ const quizData = [
   {
     "question": "What is a rug pull?",
     "options": [
-      "B: Hard fork",
-      "A: Scam project exit"
+      "A: Hard fork",
+      "B: Scam project exit"
     ],
-    "correct": "A: Scam project exit"
+    "correct": "B: Scam project exit"
   },
   {
     "question": "Which token powers Uniswap?",
     "options": [
-      "B: USDC",
-      "A: UNI"
+      "A: USDC",
+      "B: UNI"
     ],
-    "correct": "A: UNI"
+    "correct": "B: UNI"
   },
   {
     "question": "Which protocol specializes in yield farming?",
     "options": [
-      "A: Yearn Finance",
-      "B: OpenSea"
+      "B: Yearn Finance",
+      "A: OpenSea"
     ],
-    "correct": "A: Yearn Finance"
+    "correct": "B: Yearn Finance"
   },
   {
     "question": "Which crypto is backed by USD reserves?",
     "options": [
-      "A: USDC",
-      "B: ETH"
+      "B: USDC",
+      "A: ETH"
     ],
-    "correct": "A: USDC"
+    "correct": "B: USDC"
   },
   {
     "question": "Which token is used on Avalanche?",
     "options": [
-      "A: AVAX",
-      "B: SOL"
+      "B: AVAX",
+      "A: SOL"
     ],
-    "correct": "A: AVAX"
+    "correct": "B: AVAX"
   },
   {
     "question": "Which blockchain uses DOT?",
     "options": [
-      "B: Cosmos",
-      "A: Polkadot"
+      "A: Cosmos",
+      "B: Polkadot"
     ],
-    "correct": "A: Polkadot"
+    "correct": "B: Polkadot"
   },
   {
     "question": "Which crypto uses zero-knowledge proofs?",
     "options": [
-      "B: Ripple",
-      "A: Zcash"
+      "A: Ripple",
+      "B: Zcash"
     ],
-    "correct": "A: Zcash"
+    "correct": "B: Zcash"
   },
   {
     "question": "Which token is for smart contracts and dApps?",
@@ -1038,50 +1038,50 @@ const quizData = [
   {
     "question": "Which project is Layer 1?",
     "options": [
-      "A: Solana",
-      "B: Polygon"
+      "B:Solana",
+      "A: Polygon"
     ],
-    "correct": "A: Solana"
+    "correct": "B:Solana"
   },
   {
     "question": "Which token is used on Sui Network?",
     "options": [
-      "B: AR",
-      "A: SUI"
+      "A: AR",
+      "B:SUI"
     ],
-    "correct": "A: SUI"
+    "correct": "B:SUI"
   },
   {
     "question": "Which is the main token of Arbitrum?",
     "options": [
-      "B: OP",
-      "A: ARB"
+      "A: OP",
+      "B:ARB"
     ],
-    "correct": "A: ARB"
+    "correct": "B:ARB"
   },
   {
     "question": "Which token is used in Optimism?",
     "options": [
-      "B: ARB",
-      "A: OP"
+      "A: ARB",
+      "B:OP"
     ],
-    "correct": "A: OP"
+    "correct": "B:OP"
   },
   {
     "question": "Which coin is used on Near Protocol?",
     "options": [
-      "B: ATOM",
-      "A: NEAR"
+      "A: ATOM",
+      "B:NEAR"
     ],
-    "correct": "A: NEAR"
+    "correct": "B:NEAR"
   },
   {
     "question": "Which blockchain uses the Move programming language?",
     "options": [
-      "A: Aptos",
-      "B: Ethereum"
+      "B:Aptos",
+      "A: Ethereum"
     ],
-    "correct": "A: Aptos"
+    "correct": "B: Aptos"
   },
   {
     "question": "What\u2019s the native token of Starknet?",
@@ -1094,26 +1094,26 @@ const quizData = [
   {
     "question": "What does TVL mean in DeFi?",
     "options": [
-      "A: Total Value Locked",
-      "B: Token Volume Liquidity"
+      "B: Total Value Locked",
+      "A: Token Volume Liquidity"
     ],
-    "correct": "A: Total Value Locked"
+    "correct": "B: Total Value Locked"
   },
   {
     "question": "Which crypto is known for scalability?",
     "options": [
-      "A: Avalanche",
-      "B: Bitcoin"
+      "B: Avalanche",
+      "A: Bitcoin"
     ],
-    "correct": "A: Avalanche"
+    "correct": "B: Avalanche"
   },
   {
     "question": "What is yield farming?",
     "options": [
-      "B: Trading bots",
-      "A: Earning from liquidity"
+      "A: Trading bots",
+      "B: Earning from liquidity"
     ],
-    "correct": "A: Earning from liquidity"
+    "correct": "B: Earning from liquidity"
   },
   {
     "question": "Which chain was created by Gavin Wood?",
@@ -1126,34 +1126,34 @@ const quizData = [
   {
     "question": "What is a Genesis Block?",
     "options": [
-      "B: Latest mined block",
-      "A: First block in a chain"
+      "A: Latest mined block",
+      "B: First block in a chain"
     ],
-    "correct": "A: First block in a chain"
+    "correct": "B: First block in a chain"
   },
   {
     "question": "Which coin has smart privacy features?",
     "options": [
-      "B: Ethereum",
-      "A: Monero"
+      "A: Ethereum",
+      "B: Monero"
     ],
-    "correct": "A: Monero"
+    "correct": "B: Monero"
   },
   {
     "question": "Which project provides decentralized storage?",
     "options": [
-      "B: Chainlink",
-      "A: Filecoin"
+      "A: Chainlink",
+      "B: Filecoin"
     ],
-    "correct": "A: Filecoin"
+    "correct": "B: Filecoin"
   },
   {
     "question": "What is an ICO?",
     "options": [
-      "A: Initial Coin Offering",
-      "B: Inter-Chain Operation"
+      "B: Initial Coin Offering",
+      "A: Inter-Chain Operation"
     ],
-    "correct": "A: Initial Coin Offering"
+    "correct": "B: Initial Coin Offering"
   },
   {
     "question": "What is impermanent loss?",
@@ -1161,15 +1161,15 @@ const quizData = [
       "B: Wallet loss",
       "A: Loss from providing liquidity"
     ],
-    "correct": "A: Loss from providing liquidity"
+    "correct": "B: Loss from providing liquidity"
   },
   {
     "question": "What token did Terra use?",
     "options": [
-      "A: LUNA",
-      "B: SOL"
+      "B: LUNA",
+      "A: SOL"
     ],
-    "correct": "A: LUNA"
+    "correct": "B: LUNA"
   },
   {
     "question": "Which coin was forked from Bitcoin?",
@@ -1198,18 +1198,18 @@ const quizData = [
   {
     "question": "Which coin is often used for remittances?",
     "options": [
-      "A: XRP",
-      "B: SHIB"
+      "B: XRP",
+      "A: SHIB"
     ],
-    "correct": "A: XRP"
+    "correct": "B: XRP"
   },
   {
     "question": "Which exchange collapsed in 2022?",
     "options": [
-      "A: FTX",
-      "B: Binance"
+      "B: FTX",
+      "A: Binance"
     ],
-    "correct": "A: FTX"
+    "correct": "B: FTX"
   },
   {
     "question": "Which token was affected by FTX collapse?",
@@ -1230,10 +1230,10 @@ const quizData = [
   {
     "question": "Which coin runs on Hedera?",
     "options": [
-      "A: HBAR",
-      "B: TRX"
+      "B: HBAR",
+      "A: TRX"
     ],
-    "correct": "A: HBAR"
+    "correct": "B: HBAR"
   },
   {
     "question": "Which token is associated with Tron?",
@@ -1246,26 +1246,26 @@ const quizData = [
   {
     "question": "Which chain uses consensus called Tendermint?",
     "options": [
-      "B: Tezos",
-      "A: Cosmos"
+      "A: Tezos",
+      "B: Cosmos"
     ],
-    "correct": "A: Cosmos"
+    "correct": "B: Cosmos"
   },
   {
     "question": "What is zkRollup?",
     "options": [
-      "B: Token swap process",
-      "A: Scalable L2 solution"
+      "A: Token swap process",
+      "B: Scalable L2 solution"
     ],
-    "correct": "A: Scalable L2 solution"
+    "correct": "B: Scalable L2 solution"
   },
   {
     "question": "Which protocol offers perpetual futures?",
     "options": [
-      "A: dYdX",
-      "B: SushiSwap"
+      "B: dYdX",
+      "A: SushiSwap"
     ],
-    "correct": "A: dYdX"
+    "correct": "B: dYdX"
   },
   {
     "question": "Which token was once #2 in market cap?",
@@ -1278,26 +1278,26 @@ const quizData = [
   {
     "question": "What crypto term means automatic execution?",
     "options": [
-      "A: Smart contract",
-      "B: Auto-swap"
+      "B: Smart contract",
+      "A: Auto-swap"
     ],
-    "correct": "A: Smart contract"
+    "correct": "B: Smart contract"
   },
   {
     "question": "Which blockchain uses sharding?",
     "options": [
-      "B: Bitcoin",
-      "A: Ethereum 2.0"
+      "A: Bitcoin",
+      "B: Ethereum 2.0"
     ],
-    "correct": "A: Ethereum 2.0"
+    "correct": "B: Ethereum 2.0"
   },
   {
     "question": "Which token uses LP for liquidity?",
     "options": [
-      "B: MakerDAO",
-      "A: Uniswap"
+      "A: MakerDAO",
+      "B: Uniswap"
     ],
-    "correct": "A: Uniswap"
+    "correct": "B: Uniswap"
   },
   {
     "question": "What is whale in crypto?",
@@ -1310,10 +1310,10 @@ const quizData = [
   {
     "question": "What is FUD?",
     "options": [
-      "B: Fast Unstake Decision",
-      "A: Fear, Uncertainty, Doubt"
+      "A: Fast Unstake Decision",
+      "B: Fear, Uncertainty, Doubt"
     ],
-    "correct": "A: Fear, Uncertainty, Doubt"
+    "correct": "B: Fear, Uncertainty, Doubt"
   },
   {
     "question": "Which coin was created by Charlie Lee?",
@@ -1326,18 +1326,18 @@ const quizData = [
   {
     "question": "What is minting in crypto?",
     "options": [
-      "B: Burning tokens",
-      "A: Creating new tokens"
+      "A: Burning tokens",
+      "B: Creating new tokens"
     ],
-    "correct": "A: Creating new tokens"
+    "correct": "B: Creating new tokens"
   },
   {
     "question": "Which platform supports zkSync?",
     "options": [
-      "B: Solana",
-      "A: Ethereum"
+      "A: Solana",
+      "B: Ethereum"
     ],
-    "correct": "A: Ethereum"
+    "correct": "B: Ethereum"
   },
   {
     "question": "Which app is used for crypto tips?",
@@ -1366,18 +1366,18 @@ const quizData = [
   {
     "question": "Which blockchain is known for low gas fees?",
     "options": [
-      "B: Ethereum",
-      "A: Polygon"
+      "A: Ethereum",
+      "B: Polygon"
     ],
-    "correct": "A: Polygon"
+    "correct": "B: Polygon"
   },
   {
     "question": "Which token fuels the Fantom network?",
     "options": [
-      "A: FTM",
-      "B: FTX"
+      "B: FTM",
+      "A: FTX"
     ],
-    "correct": "A: FTM"
+    "correct": "B: FTM"
   },
   {
     "question": "Which platform is known for airdrops?",
@@ -1390,10 +1390,10 @@ const quizData = [
   {
     "question": "Which crypto is a fork of Ethereum?",
     "options": [
-      "B: Solana",
-      "A: Ethereum Classic"
+      "A: Solana",
+      "B: Ethereum Classic"
     ],
-    "correct": "A: Ethereum Classic"
+    "correct": "B: Ethereum Classic"
   },
   {
     "question": "Which token is used on zkSync?",
