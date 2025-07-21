@@ -622,16 +622,17 @@ const quizData = [
   {
     "question": "Which company created the XRP token?",
     "options": [
-      "B: Ethereum Foundation",
-      "A: Ripple Labs"
+      "A: Ripple Labs",
+      "B: Ethereum Foundation"
     ],
     "correct": "A: Ripple Labs"
   },
   {
     "question": "What is the maximum supply of Bitcoin?",
     "options": [
-      "B: 100 million",
-      "A: 21 million"
+  
+      "A: 21 million",
+      "B: 100 million"
     ],
     "correct": "A: 21 million"
   },
@@ -670,8 +671,8 @@ const quizData = [
   {
     "question": "What does DEX stand for?",
     "options": [
-      "B: Digital Exchange",
-      "A: Decentralized Exchange"
+      "A: Decentralized Exchange",
+      "B: Digital Exchange"
     ],
     "correct": "A: Decentralized Exchange"
   },
@@ -710,24 +711,24 @@ const quizData = [
   {
     "question": "Which blockchain uses SOL as its token?",
     "options": [
-      "B: Solana",
-      "A: Polygon"
+      "A: Polygon",
+       "B: Solana"
     ],
     "correct": "B: Solana"
   },
   {
     "question": "Which crypto is known as digital silver?",
     "options": [
-      "B: Litecoin",
-      "A: Ethereum"
+      "A: Ethereum",
+      "B: Litecoin"
     ],
     "correct": "B: Litecoin"
   },
   {
     "question": "What is gas in Ethereum?",
     "options": [
-      "B: Transaction fee",
-      "A: Block reward"
+      "A: Block reward",
+       "B: Transaction fee"
     ],
     "correct": "B: Transaction fee"
   },
@@ -742,24 +743,24 @@ const quizData = [
   {
     "question": "What is a stablecoin?",
     "options": [
-      "B: Crypto pegged to fiat",
-      "A: Crypto with fixed supply"
+      "A: Crypto with fixed supply",
+      "B: Crypto pegged to fiat"
     ],
     "correct": "B: Crypto pegged to fiat"
   },
   {
     "question": "Which coin is a popular privacy coin?",
     "options": [
-      "B: Monero",
-      "A: Bitcoin Cash"
+      "A: Bitcoin Cash",
+       "B: Monero"
     ],
     "correct": "B: Monero"
   },
   {
     "question": "What is an NFT?",
     "options": [
-      "B: Non-Fixed Token",
-      "A: Non-Fungible Token"
+      "A: Non-Fungible Token",
+       "B: Non-Fixed Token"
     ],
     "correct": "A: Non-Fungible Token"
   },
@@ -774,16 +775,16 @@ const quizData = [
   {
     "question": "Which protocol is used for lending and borrowing?",
     "options": [
-      "B: Uniswap",
-      "A: Aave"
+      "A: Aave",
+      "B: Uniswap"
     ],
     "correct": "A: Aave"
   },
   {
     "question": "Which crypto launched first?",
     "options": [
-      "B: Ethereum",
-      "A: Bitcoin"
+      "A: Bitcoin",
+       "B: Ethereum"
     ],
     "correct": "A: Bitcoin"
   },
@@ -798,8 +799,8 @@ const quizData = [
   {
     "question": "What is staking?",
     "options": [
-      "B: Burning tokens",
-      "A: Locking tokens for rewards"
+      "A: Locking tokens for rewards",
+      "B: Burning tokens"
     ],
     "correct": "A: Locking tokens for rewards"
   },
@@ -838,8 +839,8 @@ const quizData = [
   {
     "question": "Which token is used in Polygon?",
     "options": [
-      "B: DOT",
-      "A: MATIC"
+      "A: MATIC",
+       "B: DOT"
     ],
     "correct": "A: MATIC"
   },
@@ -870,24 +871,25 @@ const quizData = [
   {
     "question": "Which protocol specializes in yield farming?",
     "options": [
-      "B: Yearn Finance",
-      "A: OpenSea"
+      "A: OpenSea",
+      "B: Yearn Finance"
     ],
     "correct": "B: Yearn Finance"
   },
   {
     "question": "Which crypto is backed by USD reserves?",
     "options": [
-      "B: USDC",
-      "A: ETH"
+      "A: ETH",
+      "B: USDC"
     ],
     "correct": "B: USDC"
   },
   {
     "question": "Which token is used on Avalanche?",
     "options": [
-      "B: AVAX",
-      "A: SOL"
+      "A: SOL",
+      "B: AVAX"
+
     ],
     "correct": "B: AVAX"
   },
@@ -910,8 +912,8 @@ const quizData = [
   {
     "question": "Which token is for smart contracts and dApps?",
     "options": [
-      "B: XRP",
-      "A: Ethereum"
+      "A: Ethereum",
+       "B: XRP"
     ],
     "correct": "A: Ethereum"
   },
@@ -926,8 +928,8 @@ const quizData = [
   {
     "question": "What\u2019s the smallest unit of Bitcoin?",
     "options": [
-      "B: Bitcent",
-      "A: Satoshi"
+      "A: Satoshi",
+       "B: Bitcent"
     ],
     "correct": "A: Satoshi"
   },
@@ -942,8 +944,8 @@ const quizData = [
   {
     "question": "Which company created Tether?",
     "options": [
-      "B: Binance",
-      "A: iFinex"
+      "A: iFinex",
+       "B: Binance"
     ],
     "correct": "A: iFinex"
   },
@@ -966,8 +968,8 @@ const quizData = [
   {
     "question": "What is a hard fork?",
     "options": [
-      "B: Token airdrop",
-      "A: Major blockchain change"
+      "A: Major blockchain change",
+       "B: Token airdrop"
     ],
     "correct": "A: Major blockchain change"
   },
@@ -982,16 +984,17 @@ const quizData = [
   {
     "question": "Which token is used on Cosmos?",
     "options": [
-      "B: LUNA",
-      "A: ATOM"
+      "A: ATOM",
+       "B: LUNA"
     ],
     "correct": "A: ATOM"
   },
   {
     "question": "What is a cold wallet?",
     "options": [
-      "B: Hot crypto exchange",
-      "A: Offline crypto wallet"
+      "A: Offline crypto wallet",
+      "B: Hot crypto exchange"
+      
     ],
     "correct": "A: Offline crypto wallet"
   },
@@ -1014,16 +1017,16 @@ const quizData = [
   {
     "question": "What\u2019s a meme coin?",
     "options": [
-      "B: Stablecoin",
-      "A: Joke-based crypto"
+      "A: Joke-based crypto",
+       "B: Stablecoin"
     ],
     "correct": "A: Joke-based crypto"
   },
   {
     "question": "Which protocol supports flash loans?",
     "options": [
-      "B: Uniswap",
-      "A: Aave"
+      "A: Aave",
+       "B: Uniswap"
     ],
     "correct": "A: Aave"
   },
@@ -1038,8 +1041,8 @@ const quizData = [
   {
     "question": "Which project is Layer 1?",
     "options": [
-      "B:Solana",
-      "A: Polygon"
+      "A: Polygon",
+      "B:Solana"
     ],
     "correct": "B:Solana"
   },
@@ -1078,8 +1081,8 @@ const quizData = [
   {
     "question": "Which blockchain uses the Move programming language?",
     "options": [
-      "B:Aptos",
-      "A: Ethereum"
+      "A: Ethereum",
+      "B:Aptos"
     ],
     "correct": "B: Aptos"
   },
@@ -1094,16 +1097,16 @@ const quizData = [
   {
     "question": "What does TVL mean in DeFi?",
     "options": [
-      "B: Total Value Locked",
-      "A: Token Volume Liquidity"
+      "A: Token Volume Liquidity",
+         "B: Total Value Locked"
     ],
     "correct": "B: Total Value Locked"
   },
   {
     "question": "Which crypto is known for scalability?",
     "options": [
-      "B: Avalanche",
-      "A: Bitcoin"
+      "A: Bitcoin",
+          "B: Avalanche"
     ],
     "correct": "B: Avalanche"
   },
@@ -1150,40 +1153,41 @@ const quizData = [
   {
     "question": "What is an ICO?",
     "options": [
-      "B: Initial Coin Offering",
-      "A: Inter-Chain Operation"
+      "A: Inter-Chain Operation",
+       "B: Initial Coin Offering"
     ],
     "correct": "B: Initial Coin Offering"
   },
   {
     "question": "What is impermanent loss?",
     "options": [
-      "B: Wallet loss",
-      "A: Loss from providing liquidity"
+      "A: Loss from providing liquidity",
+       "B: Wallet loss"
+
     ],
     "correct": "B: Loss from providing liquidity"
   },
   {
     "question": "What token did Terra use?",
     "options": [
-      "B: LUNA",
-      "A: SOL"
+      "A: SOL",
+       "B: LUNA"
     ],
     "correct": "B: LUNA"
   },
   {
     "question": "Which coin was forked from Bitcoin?",
     "options": [
-      "B: ETH",
-      "A: Bitcoin Cash"
+      "A: Bitcoin Cash",
+      "B: ETH"
     ],
     "correct": "A: Bitcoin Cash"
   },
   {
     "question": "Which blockchain is IOTA associated with?",
     "options": [
+      "A: Tangle",
       "B: Ouroboros",
-      "A: Tangle"
     ],
     "correct": "A: Tangle"
   },
@@ -1198,24 +1202,24 @@ const quizData = [
   {
     "question": "Which coin is often used for remittances?",
     "options": [
-      "B: XRP",
-      "A: SHIB"
+      "A: SHIB",
+       "B: XRP"
     ],
     "correct": "B: XRP"
   },
   {
     "question": "Which exchange collapsed in 2022?",
     "options": [
-      "B: FTX",
-      "A: Binance"
+      "A: Binance",
+      "B: FTX"
     ],
     "correct": "B: FTX"
   },
   {
     "question": "Which token was affected by FTX collapse?",
     "options": [
+      "A: FTT",
       "B: BNB",
-      "A: FTT"
     ],
     "correct": "A: FTT"
   },
@@ -1230,8 +1234,9 @@ const quizData = [
   {
     "question": "Which coin runs on Hedera?",
     "options": [
-      "B: HBAR",
-      "A: TRX"
+     
+      "A: TRX",
+       "B: HBAR"
     ],
     "correct": "B: HBAR"
   },
@@ -1262,24 +1267,24 @@ const quizData = [
   {
     "question": "Which protocol offers perpetual futures?",
     "options": [
-      "B: dYdX",
-      "A: SushiSwap"
+      "A: SushiSwap",
+      "B: dYdX"
     ],
     "correct": "B: dYdX"
   },
   {
     "question": "Which token was once #2 in market cap?",
     "options": [
-      "B: Litecoin",
-      "A: Ethereum"
+      "A: Ethereum",
+      "B: Litecoin"
     ],
     "correct": "A: Ethereum"
   },
   {
     "question": "What crypto term means automatic execution?",
     "options": [
-      "B: Smart contract",
-      "A: Auto-swap"
+      "A: Auto-swap",
+      "B: Smart contract"
     ],
     "correct": "B: Smart contract"
   },
@@ -1302,8 +1307,8 @@ const quizData = [
   {
     "question": "What is whale in crypto?",
     "options": [
-      "B: Small trader",
-      "A: Large holder"
+      "A: Large holder",
+       "B: Small trader"
     ],
     "correct": "A: Large holder"
   },
@@ -1358,8 +1363,8 @@ const quizData = [
   {
     "question": "What does GM mean in crypto slang?",
     "options": [
-      "B: Great Market",
-      "A: Good Morning"
+      "A: Good Morning",
+       "B: Great Market",
     ],
     "correct": "A: Good Morning"
   },
@@ -1374,8 +1379,8 @@ const quizData = [
   {
     "question": "Which token fuels the Fantom network?",
     "options": [
-      "B: FTM",
-      "A: FTX"
+      "A: FTX",
+      "B: FTM"
     ],
     "correct": "B: FTM"
   },
