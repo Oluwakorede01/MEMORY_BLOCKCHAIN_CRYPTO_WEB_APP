@@ -16,6 +16,10 @@ background-repeat: no-repeat;">
  
 
 
+
+
+
+  
 <div class="qbox">
 
   <div  class="header">
@@ -27,7 +31,8 @@ background-repeat: no-repeat;">
 <div id="usernameInput">
 
  
-    <input type="text" id="username" placeholder="Enter your name">
+    <input type="text" id="username" maxlength="10" pattern[A-Za-z] {1,10}   placeholder="Enter your name"
+    required>
   </div> <br>
 
 <button id="startBtn">Start Quiz</button>
@@ -62,7 +67,6 @@ Loading...
   <button id="restartBtn" style="display: none;">Start Again!</button>
 
     </div>
- 
 
 
 

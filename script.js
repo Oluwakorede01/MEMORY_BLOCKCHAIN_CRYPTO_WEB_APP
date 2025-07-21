@@ -13,7 +13,7 @@ const quizData = [
 
   {
     question:
-      "What does cryptocurrency use to verify and maintain records of transactions?",
+      "What secures and verifies crypto transactions?",
     options: ["A:  wallet", "B: Cryptography"],
     correct: "B: Cryptography",
   },
@@ -25,7 +25,7 @@ const quizData = [
   },
 
   {
-    question: "What are the types of  cryptocurrency that exist?",
+    question: "Types of  cryptocurrency?",
     options: [
       "A:  Bitcoin, altcoins, stablecoins, tokens",
       "B: Xrp, etherium, Doge,Lever",
@@ -45,9 +45,9 @@ const quizData = [
     question: "What is a crypto exchange?",
     options: [
       "A:  A platform for trading Bitcoin",
-      "B: A platform for buying and selling cryptocurrencies",
+      "B: A platform for buying and selling crypto",
     ],
-    correct: "B: A platform for buying and selling cryptocurrencies",
+    correct: "B: A platform for buying and selling crypto",
   },
 
   {
@@ -60,9 +60,9 @@ const quizData = [
     question: "What is mining in crypto ?",
     options: [
       "A:  The process of trading a coin",
-      "B: The process of validating transactions and earning coins",
+      "B: Validating transactions and earning coins",
     ],
-    correct: "B: The process of validating transactions and earning coins",
+    correct: "B: Validating transactions and earning coins",
   },
   {
     question: "What does decentralized mean in crypto?",
@@ -73,20 +73,21 @@ const quizData = [
   {
     question: "What is Etherium?",
     options: [
-      "A:  Etherium is a decentralized platform that enables smart contracts and decentralized applications",
-      "B: Etherium is a decentralized program created for the solution of block chain network",
+      "A: Platform for smart contracts and dApps",
+      
+      "B: Solution for blockchain"
     ],
-    correct: "A:  Etherium is a decentralized platform that enables smart contracts and decentralized applications",
+    correct: "A: Platform for smart contracts and dApps",
   },
 
 
   {
     question: "What is a wallet in crypto?",
     options: [
-      "A:  A crypto wallet is a space for buying and selling assets in the crypto space",
-      "B: A crypto wallet is a digital tool that allows users to store and manage cryptocurrency",
+      "A:  Used for sending crypto",
+      "B: Crypto wallet: stores and manages crypto",
     ],
-    correct: "B: A crypto wallet is a digital tool that allows users to store and manage cryptocurrency",
+    correct: "B: Crypto wallet: stores and manages crypto",
   },
 
   {
@@ -248,7 +249,7 @@ const quizData = [
       "A:  A scam project that suddenly disappeared with funds",
       "B: A crypto donation",
     ],
-    correct: "A:  A scam project that suddenly disappeared with funds",
+    correct: "A:  A scam project that ran with funds",
   },
   {
     question: "What is staking in crypto?",
@@ -472,7 +473,7 @@ const quizData = [
     correct:"B: Locking coins to support the network and earn rewards",
   },
   {
-    question: "Which token is primarily used on the Ethereum network to pay gas fees?",
+    question: "Which token pays gas on Etherium?",
     options:["A:  USDC",
       "B: ETH",
     ],
@@ -495,12 +496,12 @@ const quizData = [
   {
     question: "What is meme coin",
     options:["A:  Utility Based Token",
-      "B: Coin inspired by internet culture with little use case",
+      "B: Meme-inspired coin with little use case",
     ],
-    correct:"B: Coin inspired by internet culture with little use case",
+    correct:"B:  Meme-inspired coin with little use case",
   },
   {
-    question: "Which blockchain is know for very low fees and fast transactions?",
+    question: " Blockchain known for  speed and low fees and fast?",
     options:["A:  Solana",
       "B: Ethereum",
     ],
@@ -549,7 +550,7 @@ const quizData = [
   },
 
    { 
-    question: "What consensus mechanism does Bitcoin use?",
+    question: "Consensus mechanism for Bitcoin use?",
     options: ["A: Proof of Work", "B: Proof of Stake"],
     correct: "A: Proof of Work",
   },
@@ -560,12 +561,7 @@ const quizData = [
     correct: "A: Ethereum",
   },
 
-  { 
-    question: "Which blockchain introduced smart contracts first?",
-    options: ["A: Ethereum", "B: Bitcoin"],
-    correct: "A: Ethereum",
-  },
-
+  
     { 
     question: "Which stablecoin is backed by the US Dollar?",
     options: ["A: USDT", "B: SOL"],
@@ -598,14 +594,14 @@ const quizData = [
   },
 
    { 
-    question: "What type of chart shows candlesticks in crypto trading?",
+    question: "What chart uses candlesticks in crypto trading?",
     options: ["A: Technical chart", "B: Line chart"],
     correct: "A: Technical chart",
   },
 
 
   { 
-    question: "Which of the following is a Layer 1 blockchain?",
+    question: "Which of them is a Layer 1 blockchain?",
     options: ["A: Avalanche", "B: Arbitrum"],
     correct: "A: Avalanche",
   },
@@ -616,6 +612,797 @@ const quizData = [
     options: ["A: El Salvador", "B: Nigeria"],
     correct: "A: El Salvador",
   },
+
+
+
+
+
+
+
+  {
+    "question": "Which company created the XRP token?",
+    "options": [
+      "B: Ethereum Foundation",
+      "A: Ripple Labs"
+    ],
+    "correct": "A: Ripple Labs"
+  },
+  {
+    "question": "What is the maximum supply of Bitcoin?",
+    "options": [
+      "B: 100 million",
+      "A: 21 million"
+    ],
+    "correct": "A: 21 million"
+  },
+  {
+    "question": "Which consensus mechanism does Ethereum now use?",
+    "options": [
+      "A: Proof of Stake",
+      "B: Proof of Work"
+    ],
+    "correct": "A: Proof of Stake"
+  },
+  {
+    "question": "Who is the pseudonymous creator of Bitcoin?",
+    "options": [
+      "A: Satoshi Nakamoto",
+      "B: Vitalik Buterin"
+    ],
+    "correct": "A: Satoshi Nakamoto"
+  },
+  {
+    "question": "What is the native token of Binance Smart Chain?",
+    "options": [
+      "A: BNB",
+      "B: BNB Chain"
+    ],
+    "correct": "A: BNB"
+  },
+  {
+    "question": "What year was Bitcoin launched?",
+    "options": [
+      "B: 2011",
+      "A: 2009"
+    ],
+    "correct": "A: 2009"
+  },
+  {
+    "question": "What does DEX stand for?",
+    "options": [
+      "B: Digital Exchange",
+      "A: Decentralized Exchange"
+    ],
+    "correct": "A: Decentralized Exchange"
+  },
+  {
+    "question": "What is a crypto wallet used for?",
+    "options": [
+      "A: Storing private keys",
+      "B: Storing fiat money"
+    ],
+    "correct": "A: Storing private keys"
+  },
+  {
+    "question": "Which platform is known for NFTs?",
+    "options": [
+      "B: Bitcoin",
+      "A: Ethereum"
+    ],
+    "correct": "A: Ethereum"
+  },
+  {
+    "question": "Which token powers the Ethereum network?",
+    "options": [
+      "B: ETC",
+      "A: ETH"
+    ],
+    "correct": "A: ETH"
+  },
+  {
+    "question": "What\u2019s the purpose of a blockchain explorer?",
+    "options": [
+      "B: Mine new tokens",
+      "A: View blockchain data"
+    ],
+    "correct": "A: View blockchain data"
+  },
+  {
+    "question": "Which blockchain uses SOL as its token?",
+    "options": [
+      "A: Solana",
+      "B: Polygon"
+    ],
+    "correct": "A: Solana"
+  },
+  {
+    "question": "Which crypto is known as digital silver?",
+    "options": [
+      "A: Litecoin",
+      "B: Ethereum"
+    ],
+    "correct": "A: Litecoin"
+  },
+  {
+    "question": "What is gas in Ethereum?",
+    "options": [
+      "A: Transaction fee",
+      "B: Block reward"
+    ],
+    "correct": "A: Transaction fee"
+  },
+  {
+    "question": "What does HODL mean in crypto slang?",
+    "options": [
+      "B: Sell at peak",
+      "A: Hold crypto long-term"
+    ],
+    "correct": "A: Hold crypto long-term"
+  },
+  {
+    "question": "What is a stablecoin?",
+    "options": [
+      "A: Crypto pegged to fiat",
+      "B: Crypto with fixed supply"
+    ],
+    "correct": "A: Crypto pegged to fiat"
+  },
+  {
+    "question": "Which coin is a popular privacy coin?",
+    "options": [
+      "A: Monero",
+      "B: Bitcoin Cash"
+    ],
+    "correct": "A: Monero"
+  },
+  {
+    "question": "What is an NFT?",
+    "options": [
+      "B: Non-Fixed Token",
+      "A: Non-Fungible Token"
+    ],
+    "correct": "A: Non-Fungible Token"
+  },
+  {
+    "question": "Which company owns Metamask?",
+    "options": [
+      "A: Consensys",
+      "B: Coinbase"
+    ],
+    "correct": "A: Consensys"
+  },
+  {
+    "question": "Which protocol is used for lending and borrowing?",
+    "options": [
+      "B: Uniswap",
+      "A: Aave"
+    ],
+    "correct": "A: Aave"
+  },
+  {
+    "question": "Which crypto launched first?",
+    "options": [
+      "B: Ethereum",
+      "A: Bitcoin"
+    ],
+    "correct": "A: Bitcoin"
+  },
+  {
+    "question": "Which Layer 2 solution is for Ethereum?",
+    "options": [
+      "A: Arbitrum",
+      "B: Solana"
+    ],
+    "correct": "A: Arbitrum"
+  },
+  {
+    "question": "What is staking?",
+    "options": [
+      "B: Burning tokens",
+      "A: Locking tokens for rewards"
+    ],
+    "correct": "A: Locking tokens for rewards"
+  },
+  {
+    "question": "What does DeFi stand for?",
+    "options": [
+      "A: Decentralized Finance",
+      "B: Digital Finance"
+    ],
+    "correct": "A: Decentralized Finance"
+  },
+  {
+    "question": "What\u2019s the primary use of Chainlink?",
+    "options": [
+      "A: Oracle services",
+      "B: Smart contract execution"
+    ],
+    "correct": "A: Oracle services"
+  },
+  {
+    "question": "Which platform supports Cardano (ADA)?",
+    "options": [
+      "A: Ouroboros",
+      "B: Polkadot"
+    ],
+    "correct": "A: Ouroboros"
+  },
+  {
+    "question": "What is a DAO?",
+    "options": [
+      "A: Decentralized Autonomous Organization",
+      "B: Digital Asset Operator"
+    ],
+    "correct": "A: Decentralized Autonomous Organization"
+  },
+  {
+    "question": "Which token is used in Polygon?",
+    "options": [
+      "B: DOT",
+      "A: MATIC"
+    ],
+    "correct": "A: MATIC"
+  },
+  {
+    "question": "Which coin was created as a joke?",
+    "options": [
+      "A: Dogecoin",
+      "B: Litecoin"
+    ],
+    "correct": "A: Dogecoin"
+  },
+  {
+    "question": "What is a rug pull?",
+    "options": [
+      "B: Hard fork",
+      "A: Scam project exit"
+    ],
+    "correct": "A: Scam project exit"
+  },
+  {
+    "question": "Which token powers Uniswap?",
+    "options": [
+      "B: USDC",
+      "A: UNI"
+    ],
+    "correct": "A: UNI"
+  },
+  {
+    "question": "Which protocol specializes in yield farming?",
+    "options": [
+      "A: Yearn Finance",
+      "B: OpenSea"
+    ],
+    "correct": "A: Yearn Finance"
+  },
+  {
+    "question": "Which crypto is backed by USD reserves?",
+    "options": [
+      "A: USDC",
+      "B: ETH"
+    ],
+    "correct": "A: USDC"
+  },
+  {
+    "question": "Which token is used on Avalanche?",
+    "options": [
+      "A: AVAX",
+      "B: SOL"
+    ],
+    "correct": "A: AVAX"
+  },
+  {
+    "question": "Which blockchain uses DOT?",
+    "options": [
+      "B: Cosmos",
+      "A: Polkadot"
+    ],
+    "correct": "A: Polkadot"
+  },
+  {
+    "question": "Which crypto uses zero-knowledge proofs?",
+    "options": [
+      "B: Ripple",
+      "A: Zcash"
+    ],
+    "correct": "A: Zcash"
+  },
+  {
+    "question": "Which token is for smart contracts and dApps?",
+    "options": [
+      "B: XRP",
+      "A: Ethereum"
+    ],
+    "correct": "A: Ethereum"
+  },
+  {
+    "question": "Which country adopted Bitcoin as legal tender?",
+    "options": [
+      "A: El Salvador",
+      "B: Switzerland"
+    ],
+    "correct": "A: El Salvador"
+  },
+  {
+    "question": "What\u2019s the smallest unit of Bitcoin?",
+    "options": [
+      "B: Bitcent",
+      "A: Satoshi"
+    ],
+    "correct": "A: Satoshi"
+  },
+  {
+    "question": "What is a private key?",
+    "options": [
+      "A: Secret password for wallet",
+      "B: Crypto exchange password"
+    ],
+    "correct": "A: Secret password for wallet"
+  },
+  {
+    "question": "Which company created Tether?",
+    "options": [
+      "B: Binance",
+      "A: iFinex"
+    ],
+    "correct": "A: iFinex"
+  },
+  {
+    "question": "What is the first NFT collection?",
+    "options": [
+      "A: CryptoPunks",
+      "B: Bored Ape"
+    ],
+    "correct": "A: CryptoPunks"
+  },
+  {
+    "question": "What\u2019s the use of PancakeSwap?",
+    "options": [
+      "A: DEX on BSC",
+      "B: Token burning"
+    ],
+    "correct": "A: DEX on BSC"
+  },
+  {
+    "question": "What is a hard fork?",
+    "options": [
+      "B: Token airdrop",
+      "A: Major blockchain change"
+    ],
+    "correct": "A: Major blockchain change"
+  },
+  {
+    "question": "Which coin uses delegated proof of stake?",
+    "options": [
+      "A: EOS",
+      "B: Bitcoin"
+    ],
+    "correct": "A: EOS"
+  },
+  {
+    "question": "Which token is used on Cosmos?",
+    "options": [
+      "B: LUNA",
+      "A: ATOM"
+    ],
+    "correct": "A: ATOM"
+  },
+  {
+    "question": "What is a cold wallet?",
+    "options": [
+      "B: Hot crypto exchange",
+      "A: Offline crypto wallet"
+    ],
+    "correct": "A: Offline crypto wallet"
+  },
+  {
+    "question": "Which coin enables fast micropayments?",
+    "options": [
+      "A: Nano",
+      "B: Bitcoin"
+    ],
+    "correct": "A: Nano"
+  },
+  {
+    "question": "What is the purpose of Etherscan?",
+    "options": [
+      "A: Track Ethereum transactions",
+      "B: Buy ETH"
+    ],
+    "correct": "A: Track Ethereum transactions"
+  },
+  {
+    "question": "What\u2019s a meme coin?",
+    "options": [
+      "B: Stablecoin",
+      "A: Joke-based crypto"
+    ],
+    "correct": "A: Joke-based crypto"
+  },
+  {
+    "question": "Which protocol supports flash loans?",
+    "options": [
+      "B: Uniswap",
+      "A: Aave"
+    ],
+    "correct": "A: Aave"
+  },
+  {
+    "question": "What is slippage in trading?",
+    "options": [
+      "A: Price difference at execution",
+      "B: Network fee"
+    ],
+    "correct": "A: Price difference at execution"
+  },
+  {
+    "question": "Which project is Layer 1?",
+    "options": [
+      "A: Solana",
+      "B: Polygon"
+    ],
+    "correct": "A: Solana"
+  },
+  {
+    "question": "Which token is used on Sui Network?",
+    "options": [
+      "B: AR",
+      "A: SUI"
+    ],
+    "correct": "A: SUI"
+  },
+  {
+    "question": "Which is the main token of Arbitrum?",
+    "options": [
+      "B: OP",
+      "A: ARB"
+    ],
+    "correct": "A: ARB"
+  },
+  {
+    "question": "Which token is used in Optimism?",
+    "options": [
+      "B: ARB",
+      "A: OP"
+    ],
+    "correct": "A: OP"
+  },
+  {
+    "question": "Which coin is used on Near Protocol?",
+    "options": [
+      "B: ATOM",
+      "A: NEAR"
+    ],
+    "correct": "A: NEAR"
+  },
+  {
+    "question": "Which blockchain uses the Move programming language?",
+    "options": [
+      "A: Aptos",
+      "B: Ethereum"
+    ],
+    "correct": "A: Aptos"
+  },
+  {
+    "question": "What\u2019s the native token of Starknet?",
+    "options": [
+      "A: STRK",
+      "B: STARK"
+    ],
+    "correct": "A: STRK"
+  },
+  {
+    "question": "What does TVL mean in DeFi?",
+    "options": [
+      "A: Total Value Locked",
+      "B: Token Volume Liquidity"
+    ],
+    "correct": "A: Total Value Locked"
+  },
+  {
+    "question": "Which crypto is known for scalability?",
+    "options": [
+      "A: Avalanche",
+      "B: Bitcoin"
+    ],
+    "correct": "A: Avalanche"
+  },
+  {
+    "question": "What is yield farming?",
+    "options": [
+      "B: Trading bots",
+      "A: Earning from liquidity"
+    ],
+    "correct": "A: Earning from liquidity"
+  },
+  {
+    "question": "Which chain was created by Gavin Wood?",
+    "options": [
+      "A: Polkadot",
+      "B: Ethereum Classic"
+    ],
+    "correct": "A: Polkadot"
+  },
+  {
+    "question": "What is a Genesis Block?",
+    "options": [
+      "B: Latest mined block",
+      "A: First block in a chain"
+    ],
+    "correct": "A: First block in a chain"
+  },
+  {
+    "question": "Which coin has smart privacy features?",
+    "options": [
+      "B: Ethereum",
+      "A: Monero"
+    ],
+    "correct": "A: Monero"
+  },
+  {
+    "question": "Which project provides decentralized storage?",
+    "options": [
+      "B: Chainlink",
+      "A: Filecoin"
+    ],
+    "correct": "A: Filecoin"
+  },
+  {
+    "question": "What is an ICO?",
+    "options": [
+      "A: Initial Coin Offering",
+      "B: Inter-Chain Operation"
+    ],
+    "correct": "A: Initial Coin Offering"
+  },
+  {
+    "question": "What is impermanent loss?",
+    "options": [
+      "B: Wallet loss",
+      "A: Loss from providing liquidity"
+    ],
+    "correct": "A: Loss from providing liquidity"
+  },
+  {
+    "question": "What token did Terra use?",
+    "options": [
+      "A: LUNA",
+      "B: SOL"
+    ],
+    "correct": "A: LUNA"
+  },
+  {
+    "question": "Which coin was forked from Bitcoin?",
+    "options": [
+      "B: ETH",
+      "A: Bitcoin Cash"
+    ],
+    "correct": "A: Bitcoin Cash"
+  },
+  {
+    "question": "Which blockchain is IOTA associated with?",
+    "options": [
+      "B: Ouroboros",
+      "A: Tangle"
+    ],
+    "correct": "A: Tangle"
+  },
+  {
+    "question": "What is Web3?",
+    "options": [
+      "B: New browser",
+      "A: Decentralized internet"
+    ],
+    "correct": "A: Decentralized internet"
+  },
+  {
+    "question": "Which coin is often used for remittances?",
+    "options": [
+      "A: XRP",
+      "B: SHIB"
+    ],
+    "correct": "A: XRP"
+  },
+  {
+    "question": "Which exchange collapsed in 2022?",
+    "options": [
+      "A: FTX",
+      "B: Binance"
+    ],
+    "correct": "A: FTX"
+  },
+  {
+    "question": "Which token was affected by FTX collapse?",
+    "options": [
+      "B: BNB",
+      "A: FTT"
+    ],
+    "correct": "A: FTT"
+  },
+  {
+    "question": "Which protocol uses bonding curves?",
+    "options": [
+      "A: OlympusDAO",
+      "B: Chainlink"
+    ],
+    "correct": "A: OlympusDAO"
+  },
+  {
+    "question": "Which coin runs on Hedera?",
+    "options": [
+      "A: HBAR",
+      "B: TRX"
+    ],
+    "correct": "A: HBAR"
+  },
+  {
+    "question": "Which token is associated with Tron?",
+    "options": [
+      "A: TRX",
+      "B: XRP"
+    ],
+    "correct": "A: TRX"
+  },
+  {
+    "question": "Which chain uses consensus called Tendermint?",
+    "options": [
+      "B: Tezos",
+      "A: Cosmos"
+    ],
+    "correct": "A: Cosmos"
+  },
+  {
+    "question": "What is zkRollup?",
+    "options": [
+      "B: Token swap process",
+      "A: Scalable L2 solution"
+    ],
+    "correct": "A: Scalable L2 solution"
+  },
+  {
+    "question": "Which protocol offers perpetual futures?",
+    "options": [
+      "A: dYdX",
+      "B: SushiSwap"
+    ],
+    "correct": "A: dYdX"
+  },
+  {
+    "question": "Which token was once #2 in market cap?",
+    "options": [
+      "B: Litecoin",
+      "A: Ethereum"
+    ],
+    "correct": "A: Ethereum"
+  },
+  {
+    "question": "What crypto term means automatic execution?",
+    "options": [
+      "A: Smart contract",
+      "B: Auto-swap"
+    ],
+    "correct": "A: Smart contract"
+  },
+  {
+    "question": "Which blockchain uses sharding?",
+    "options": [
+      "B: Bitcoin",
+      "A: Ethereum 2.0"
+    ],
+    "correct": "A: Ethereum 2.0"
+  },
+  {
+    "question": "Which token uses LP for liquidity?",
+    "options": [
+      "B: MakerDAO",
+      "A: Uniswap"
+    ],
+    "correct": "A: Uniswap"
+  },
+  {
+    "question": "What is whale in crypto?",
+    "options": [
+      "B: Small trader",
+      "A: Large holder"
+    ],
+    "correct": "A: Large holder"
+  },
+  {
+    "question": "What is FUD?",
+    "options": [
+      "B: Fast Unstake Decision",
+      "A: Fear, Uncertainty, Doubt"
+    ],
+    "correct": "A: Fear, Uncertainty, Doubt"
+  },
+  {
+    "question": "Which coin was created by Charlie Lee?",
+    "options": [
+      "A: Litecoin",
+      "B: Dogecoin"
+    ],
+    "correct": "A: Litecoin"
+  },
+  {
+    "question": "What is minting in crypto?",
+    "options": [
+      "B: Burning tokens",
+      "A: Creating new tokens"
+    ],
+    "correct": "A: Creating new tokens"
+  },
+  {
+    "question": "Which platform supports zkSync?",
+    "options": [
+      "B: Solana",
+      "A: Ethereum"
+    ],
+    "correct": "A: Ethereum"
+  },
+  {
+    "question": "Which app is used for crypto tips?",
+    "options": [
+      "A: Farcaster",
+      "B: Excel"
+    ],
+    "correct": "A: Farcaster"
+  },
+  {
+    "question": "Which crypto is used on Base chain?",
+    "options": [
+      "A: ETH",
+      "B: SOL"
+    ],
+    "correct": "A: ETH"
+  },
+  {
+    "question": "What does GM mean in crypto slang?",
+    "options": [
+      "B: Great Market",
+      "A: Good Morning"
+    ],
+    "correct": "A: Good Morning"
+  },
+  {
+    "question": "Which blockchain is known for low gas fees?",
+    "options": [
+      "B: Ethereum",
+      "A: Polygon"
+    ],
+    "correct": "A: Polygon"
+  },
+  {
+    "question": "Which token fuels the Fantom network?",
+    "options": [
+      "A: FTM",
+      "B: FTX"
+    ],
+    "correct": "A: FTM"
+  },
+  {
+    "question": "Which platform is known for airdrops?",
+    "options": [
+      "A: Arbitrum",
+      "B: Ripple"
+    ],
+    "correct": "A: Arbitrum"
+  },
+  {
+    "question": "Which crypto is a fork of Ethereum?",
+    "options": [
+      "B: Solana",
+      "A: Ethereum Classic"
+    ],
+    "correct": "A: Ethereum Classic"
+  },
+  {
+    "question": "Which token is used on zkSync?",
+    "options": [
+      "A: ETH",
+      "B: BTC"
+    ],
+    "correct": "A: ETH"
+  }
 ];
 
 let currentQuestion = 0;
@@ -656,6 +1443,8 @@ startBtn.onclick = () => {
   } else {
     alert("Please enter your name to start.");
   }
+
+
 };
 
 restartBtn.onclick = () => {
@@ -680,9 +1469,9 @@ function loadQuestion() {
   nextBtn.style.display = "none";
   quiz.innerHTML = "";
 
-  if (currentQuestion >= quizData.length) {
+  if (currentQuestion >= 20) {
     quiz.innerHTML = "<h2 style='color:white;'>Quiz completed!</h2>";
-    scoreDiv.textContent = `Your score: ${score} / ${quizData.length}`;
+    scoreDiv.textContent = `Your score: ${score} /20`;
     restartBtn.style.display = "inline-block";
     return;
   }
@@ -736,21 +1525,21 @@ function handleAnswer(selectedOption, correct) {
   nextBtn.style.display = "inline-block";
 }
 
-// function showCorrectAnswer() {
-//   const correct = quizData[currentQuestion].correct;
-//   const allOptions = document.querySelectorAll(".option");
-//   allOptions.forEach((opt) => {
-//     opt.onClick = null;
-//     if (opt.textContent === correct) {
-//       opt.classList.add("correct");
-//       if (!opt.textContent.includes("✅")) {
-//         opt.textContent += "✅";
-//       }
-//     }
-//     opt.onclick = null;
-//   });
-//   nextBtn.style.display = "inline-block";
-// }
+function showCorrectAnswer() {
+  const correct = quizData[currentQuestion].correct;
+  const allOptions = document.querySelectorAll(".option");
+  allOptions.forEach((opt) => {
+    opt.onClick = null;
+    if (opt.textContent === correct) {
+      opt.classList.add("correct");
+      if (!opt.textContent.includes("✅")) {
+        opt.textContent += "✅";
+      }
+    }
+    opt.onclick = null;
+  });
+  nextBtn.style.display = "inline-block";
+}
 
 function startTimer() {
   let timeLeft = 15;
