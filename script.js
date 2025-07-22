@@ -1476,7 +1476,8 @@ function loadQuestion() {
 
   if (currentQuestion >= 20) {
     quiz.innerHTML = "<h2 style='color:white;'>Quiz completed!</h2>";
-    scoreDiv.textContent = `Your score: " "  ${score} /20`;
+    scoreDiv.textContent = `Your score:
+       ${score} /20`;
     restartBtn.style.display = "inline-block";
     return;
   }
