@@ -57,6 +57,7 @@ body {
 }
 
 .qbox {
+  margin-bottom: 30px;
   text-align: center;
   border: 3px solid violet;
   padding: 0 10px;
