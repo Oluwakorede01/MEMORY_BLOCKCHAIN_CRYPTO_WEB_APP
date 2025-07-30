@@ -28,6 +28,7 @@
     <h1 style="color:white; text-align: center;">MEMORY BLOCKCHAIN CRYPTO TRIVIA? 🧠</h1>
   </div>
 
+   <div id="greeting" style="color: white; font-size: 18px; margin-bottom: 10px;"></div>
 
 <div id="usernameInput">
 
@@ -39,7 +40,9 @@
 <button id="startBtn">Start Quiz</button>
 </div>
 
-<audio id="quizAudio" src="/flash-quiz-loop-236356.mp3" autoplay muted loop></audio>
+<audio id="quizAudio" src="/flash-quiz-loop-236356.mp3"></audio>
+<audio id="correctSound" src="/131660__bertrof__game-sound-correct.wav"></audio>
+<audio id="notCorrectSound" src="/277220__thedweebman__8-bit-wrong-item.wav"></audio>
 
   <div  id="quizSection" style="display:none;">
     
@@ -57,15 +60,14 @@
 
 
     <div class="QAbox">
-      <div id="greeting" style="color: white; font-size: 18px; margin-bottom: 10px;"></div>
       <div id="timer" style="color: white; font-weight: bold; margin-bottom: 10px;"></div>
 
   <div  id="quiz">
 Loading...
   </div>
-  <button id="nextBtn" style="display: none; ">Next</button>
+  <button id="nextBtn">Next</button>
   <div id="score" ></div>
-  <button id="restartBtn" style="display: none;">Start Again!</button>
+  <button id="restartBtn" style="display: none;">Play Again!</button>
 
     </div>
 
@@ -84,7 +86,6 @@ Loading...
 </div>
 
  <script src="./script.js"></script>
- <script src="/script.js"></script>
  
 </div>
 </body>

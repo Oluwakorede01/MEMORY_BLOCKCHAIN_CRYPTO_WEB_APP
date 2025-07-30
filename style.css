@@ -57,7 +57,6 @@ body {
 }
 
 .qbox {
-  margin-bottom: 30px;
   text-align: center;
   border: 3px solid violet;
   padding: 0 10px;
@@ -72,69 +71,6 @@ body {
   margin-top: 10.5px;
 }
 
-/* .box2 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box3 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box4 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box5 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box6 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box7 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box8 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box9 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-}
-
-.box10 {
-  background-color: violet;
-  height: 50px;
-  width: 75px;
-  margin-top: 10.5px;
-} */
-
 #question {
   width: 90%;
   width: 400px;
@@ -142,7 +78,6 @@ body {
   background-color: white;
   border: 1px solid violet;
   border-radius: 10px;
-  margin-bottom: 50px;
 }
 
 .QAbox {
@@ -165,7 +100,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   text-align: center;
-  margin: 30px 0;
   color: #311;
 }
 .option {
@@ -179,7 +113,6 @@ body {
   color: #111827;
   background: linear-gradient(white, #ec4899 ) padding-box,
     linear-gradient(to right, purple, #ec4899) border-box;
-
   text-align: left;
   cursor: pointer;
   position: relative;
@@ -216,9 +149,8 @@ body {
   color: purple;
 }
 #startBtn,
-#nextBtn,
 #restartBtn {
-  margin-top: 20x;
+  margin-top: 5px;
   background-color: violet;
   padding: 5px 15px;
   border-radius: 5px;
@@ -227,6 +159,15 @@ body {
   font-size: 20px;
 }
 
+#nextBtn{
+   margin-top: 5px;
+  background-color: violet;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 2px violet;
+  color: white;
+  font-size: 15px;
+}
 input#username {
   padding: 10px;
   font-size: 16px;

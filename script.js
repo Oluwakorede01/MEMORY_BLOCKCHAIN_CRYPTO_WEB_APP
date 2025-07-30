@@ -691,14 +691,12 @@ const quizData = [
   }
 ];
 
+//Variables//
 let currentQuestion = 0;
 let score = 0;
 let timer;
-
 const quiz = document.getElementById("quiz");
-
 const scoreDiv = document.getElementById("score");
-
 const nextBtn = document.getElementById("nextBtn");
 const timerDisplay = document.getElementById("timer");
 const usernameInput = document.getElementById("usernameInput");
@@ -707,22 +705,20 @@ const restartBtn = document.getElementById("restartBtn");
 const quizSection = document.getElementById("quizSection");
 const greeting = document.getElementById("greeting");
 const correctSound = document.getElementById("correctSound");
-const wrongSound = document.getElementById("wrongSound");
+const notCorrectSound = document.getElementById("notCorrectSound");
+const audio = document.getElementById("quizAudio");
 
-document.getElementById("startBtn").addEventListener("click", function(){
-  const audio = document.getElementById("quizAudio");
-  audio.muted = false;
-  audio.play();
-})
-
+//Start button function, when clicked the background sound starts playing while the quiz section opens for the quiz //
 startBtn.onclick = () => {
   console.log("Start button clicked");
-
-
+  audio.muted = false;
+  audio.play();
+  audio.loop=true;
   const name = username.value.trim();
   if (name) {
     greeting.textContent = `welcome, ${name} Let's test your crypto knowledge!`;
     usernameInput.style.display = "none";
+    startBtn.style.display="none";
     quizSection.style.display = "flex";
     shuffleQuestions();
     loadQuestion();
@@ -733,6 +729,7 @@ startBtn.onclick = () => {
 
 };
 
+//restart button //
 restartBtn.onclick = () => {
   currentQuestion = 0;
   score = 0;
@@ -742,6 +739,7 @@ restartBtn.onclick = () => {
   loadQuestion();
 };
 
+//function to shuffle questions randomly//
 function shuffleQuestions() {
   for (let i = quizData.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -749,25 +747,25 @@ function shuffleQuestions() {
   }
 }
 
+//load new  questions and clear the time interval for new question, ends
+// the quiz section once the question reach 20 questions and display the total score over 20//
 function loadQuestion() {
   clearInterval(timer);
   timerDisplay.textContent = "";
-  nextBtn.style.display = "none";
+  nextBtn.style.display = "inline-block";
   quiz.innerHTML = "";
-
+  nextBtn.disabled=true;
   if (currentQuestion >= 20) {
     quiz.innerHTML = "<h2 style='color:white;'>Quiz completed!</h2>";
     scoreDiv.textContent = `Your Final score: ${score}/20`;
     restartBtn.style.display = "inline-block";
     return;
   }
-
   const q = quizData[currentQuestion];
   const qDiv = document.createElement("div");
   qDiv.className = "question";
   qDiv.innerHTML = `<strong>${currentQuestion + 1}. ${q.question}</strong>`;
   quiz.appendChild(qDiv);
-
   q.options.forEach((opt) => {
     const p = document.createElement("p");
     p.className = "option";
@@ -776,15 +774,20 @@ function loadQuestion() {
     qDiv.appendChild(p);
   });
 
-  startTimer();
+  startTimer(); 
 }
 
+
+//This function is used to select answer option and
+//  match the options with the correct answer for a result, 
+// it also enable the next button while an answer option is
+//  clicked and dissable it if one of the answer options is not clicked//
 function handleAnswer(selectedOption, correct) {
   // clearInterval(timer);
-
   if(document.querySelector(".option.clicked")) return;
 
   selectedOption.classList.add("clicked");
+  //stop the timer if running//
   clearInterval(timer);
 
   const allOptions = document.querySelectorAll(".options");
@@ -792,10 +795,16 @@ function handleAnswer(selectedOption, correct) {
 
   if (selectedOption.textContent === correct) {
     selectedOption.classList.add("correct");
+    correctSound.mute=false;
+    correctSound.play();
+     nextBtn.disabled=false;
     selectedOption.textContent += "✅";
     score++;
   } else {
     selectedOption.classList.add("wrong");
+    notCorrectSound.mute=false;
+    notCorrectSound.play();
+     nextBtn.disabled=false;
     selectedOption.textContent += "❌";
     allOptions.forEach((opt) => {
       if (opt.textContent === correct) {
@@ -805,12 +814,12 @@ function handleAnswer(selectedOption, correct) {
         }
       }
     });
-    
   }
-
-  nextBtn.style.display = "inline-block";
+ nextBtn.disabled=false;
 }
+  
 
+//Automatically shows the answer if the timer expired and answer option is not selected//  
 function showCorrectAnswer() {
   const correct = quizData[currentQuestion].correct;
   const allOptions = document.querySelectorAll(".option");
@@ -825,8 +834,10 @@ function showCorrectAnswer() {
     opt.onclick = null;
   });
   nextBtn.style.display = "inline-block";
+  nextBtn.disabled=false;
 }
 
+//Timer for each question of the quiz to get an answer//
 function startTimer() {
   let timeLeft = 15;
   timerDisplay.textContent = `Time Left for you to pick an answer: ${timeLeft}s`;
@@ -838,11 +849,13 @@ function startTimer() {
       showCorrectAnswer();
     }
   }, 1000);
-}
+} 
 
-
+//next button
 nextBtn.onclick = () => {
-  currentQuestion++;
-
-  loadQuestion();
+   currentQuestion++;
+  loadQuestion(); 
 };
+
+
+
